@@ -17,12 +17,11 @@ Make sure you have a C++ compiler installed.And Create Project on Desktop Then:
    ```bash
    git clone https://github.com/Asharr-Ali/Snake-Game.git
 
-2. Run Following Commands to Link SFML Files
+2. Run Following Commands one by one to Link SFML Files
 
    ```bash
    g++ -c Snake_Game.cpp -I"C:\Users\Administrator\Desktop\Snake_Game\SFML\include"
 
-   ```bash
    g++ Snake_Game.o -o Snake_Game -L"C:\Users\Administrator\Desktop\Snake_Game\SFML\lib" -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 3. Run Game
