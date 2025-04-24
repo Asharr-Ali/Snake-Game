@@ -10,19 +10,19 @@ This project is a classic **Snake Game** built using **C++**, developed as part 
 
 ## 🛠️ How to Run
 
-Make sure you have a C++ compiler installed.And Create Project on Desktop Then:
+Make sure you have a C++ compiler (VS Code) installed.And Create Project on Desktop Then:
 
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/Asharr-Ali/Snake-Game.git
 
-2. Run Following Commands one by one to Link SFML Files
+2. Run Following Commands on Compiler Terminal one by one to Link SFML Files
 
    ```bash
-   g++ -c Snake_Game.cpp -I"C:\Users\Administrator\Desktop\Snake_Game\SFML\include"
+   g++ -c Snake_Game.cpp -I"C:\Users\Administrator\Desktop\Snake-Game\SFML\include"
 
-   g++ Snake_Game.o -o Snake_Game -L"C:\Users\Administrator\Desktop\Snake_Game\SFML\lib" -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+   g++ Snake_Game.o -o Snake_Game -L"C:\Users\Administrator\Desktop\Snake-Game\SFML\lib" -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 3. Run Game
 
